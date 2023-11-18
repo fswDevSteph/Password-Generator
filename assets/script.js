@@ -6,6 +6,25 @@ var generateBtn = document.querySelector('#generate');
 // Write password to the #password input
 function writePassword() {
   console.log('Running from my button Click');
+  function GenRandoPass(length, numbers, lowercase, uppercase, spechar) {
+    var allowedInputs = '';
+
+    if (numbers) {
+      characters += '1234567890';
+    }
+
+    if (lowercase) {
+      characters += 'abcdefghijklmnopqrstuvwxyz';
+    }
+
+    if (uppercase) {
+      characters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    }
+
+    if (spechar) {
+      characters += '!@#$%^&*()-_=+';
+    }
+  }
   //1.Ask user for length of password between 8-128 char
   //1.1 Validate
   //1.1.1If length is not between 8-128 char ...? exit and alert and restart
