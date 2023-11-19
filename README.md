@@ -9,9 +9,9 @@ This project is a random password generator built with HTML, CSS and JavaScript.
 
 ## Imafe of Password Generator
 
-# <link src="...">
+# <link src="./assets/Pandom-Pass-Generator.png">
 
-## Live link to projec:
+## Live link to projec: https://fswdevsteph.github.io/Password-Generator/
 
 ## Installation instructions:
 
